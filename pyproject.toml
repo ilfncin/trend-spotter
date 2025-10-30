@@ -1,0 +1,6 @@
+[project]
+name = "trend_spotter"
+version = "0.1.0"
+# This section tells the ADK how to find our agent.
+[tool.adk.agents]
+trend_spotter = "trend_spotter.agent:root_agent"
